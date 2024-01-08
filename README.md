@@ -4,7 +4,7 @@
 
 Code for MICRO: [Model-Based Offline Reinforcement Learning with a Conservative Bellman Operator](https://arxiv.org/abs/2312.03991). 
 This method trades off performance and robustness via introducing the robust Bellman operator, 
-and reduces the computation cost by only choosing the minimal Q value in the state uncertainty set. The implementation is based on [RORL](https://github.com/yangrui2015/rorl), [MOBILE](https://github.com/yihaosun1124/mobile) and [H2O](https://github.com/t6-thu/H2O).
+and reduces the computation cost by only choosing the minimal Q value in the state uncertainty set. The implementation is based on [MOBILE](https://github.com/yihaosun1124/mobile), [RORL](https://github.com/yangrui2015/rorl) and [H2O](https://github.com/t6-thu/H2O).
 
 <div style="text-align: center;">
 <img src="data/img.png" width="400" height="300">
@@ -25,7 +25,7 @@ To install all the required dependencies:
 
 ### 1. Training
 
-Just run `train.py` with specifying the task name. The hyperparameters are automatically loaded from `config`.
+Just run `train.py` with specifying the task name. The hyperparameters are automatically loaded from `configs`.
 
 ```bash
 python train.py --task [task name]
